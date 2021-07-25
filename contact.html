@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="blackandblue-border">DE DAG VAN VANDAAG</h1>
+    </header>
+
+    <nav class="nav">
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="about-blue-origin.html">Blue Origin</a></li>
+            <li> <a href="https://nl.wikipedia.org/wiki/Elon_Musk">Elon Musk</a></li>
+            <li> <a href="https://nl.wikipedia.org/wiki/Jeff_Bezos">Jeff Bezos</a></li>
+            <li> <a href="https://nl.wikipedia.org/wiki/Richard_Branson">Richard Branson</a></li>
+            <li> <a href="https://www.google.com/" target="_blank">Google.com</a></li>
+            <li> <a href="contact.html">Contact</a></li>
+
+
+        </ul>
+    </nav>
+
+    <main>
+        <article>
+            <h3>CONTACT</h3>
+            <form name="contact" method="POST" data-netlify="true">
+                <p> <label for="fname">Naam:</label>
+                    <input type="text" id="fname" name="fname">
+                </p>
+                <p><label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email">
+                </p>
+                <p><label for="phone">Telefoon:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="06-1234-5678"
+                        pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required>
+                </p>
+                <p><label for="age">Leeftijd:</label>
+                    <input type="text" id="age" name="age">
+                </p>
+                <p><label for="birthday">Geboortedatum:</label>
+                    <input type="date" id="birthday" name="birthday">
+                </p>
+                <p><label for="gender">Geslacht:</label>
+                      <input type="radio" id="man" name="gender" value="man">
+                      <label for="html">Man</label>
+                      <input type="radio" id="vrouw" name="gender" value="vrouw">
+                      <label for="css">Vrouw</label></p>
+                <p><label for="favcuisine">Favoriete cuisine:</label>
+                    <input type="checkbox" id="favcuisine1" name="favcuisine1" value="Frans">
+                    <label for="vehicle1">Frans</label>
+                    <input type="checkbox" id="favcuisine2" name="favcuisine2" value="Italiaans">
+                    <label for="vehicle2">Italiaans</label>
+                    <input type="checkbox" id="favcuisine3" name="favcuisine3" value="Spaans">
+                    <label for="vehicle3">Spaans</label>
+                    <input type="checkbox" id="favcuisine4" name="favcuisine4" value="Arabisch">
+                    <label for="vehicle3">Arabisch</label>
+                </p>
+                <p> Biografie</p>
+                <p><textarea rows="10" cols="40">
+                </textarea></p>
+                <p><label for="myfile">Upload jouw laatste recept:</label>
+                    <input type="file" id="myfile" name="myfile">
+                </p>
+                <p><label for="website">URL naar jouw recepten website:</label>
+                    <input type="url" id="website" name="website">
+                </p>
+                <p>
+                    <input type="reset">
+                    <input type="submit">
+                </p>
+
+            </form>
+        </article>
+    </main>
+    <footer>
+        <p id="cyan-background">&copy; 2021 Ditiseentest.nl</p>
+    </footer>
+</body>
+
+</html>
